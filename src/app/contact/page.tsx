@@ -1,13 +1,10 @@
 import React from "react";
-import Navbar from "../navbar/page";
-import Footer from "../footer/page";
 
 type Props = {};
 
 export default function Contact({}: Props) {
   return (
     <div>
-      {<Navbar />}
       <div className="grid md:block shadow-lg p-3 mb-5 bg-body rounded">
         <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-72 flex justify-center w-full">
           <div className="mt-10 text-white text-4xl font-bold">
@@ -77,7 +74,6 @@ export default function Contact({}: Props) {
         noModule
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
       ></script>
-      {<Footer />}
     </div>
   );
 }

@@ -1,13 +1,10 @@
 import React from "react";
-import Navbar from ".././navbar/page";
-import Footer from "../footer/page";
 
 type Props = {};
 
 export default function Ai({}: Props) {
   return (
     <div>
-      {<Navbar />}
       <section className="text-gray-600 body-font shadow-lg p-3 mb-5 bg-body rounded">
         <div className="container px-5 py-14 mx-auto">
           <div className="flex flex-wrap -m-4">
@@ -194,7 +191,6 @@ export default function Ai({}: Props) {
           </div>
         </div>
       </section>
-      {<Footer />}
     </div>
   );
 }

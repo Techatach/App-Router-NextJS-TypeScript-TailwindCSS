@@ -1,13 +1,10 @@
 import React from "react";
-import Navbar from ".././navbar/page";
-import Footer from "../footer/page";
 
 type Props = {};
 
 export default function About({}: Props) {
   return (
     <div>
-      {<Navbar />}
       <div className="flex items-center justify-center text-center shadow-lg p-3 mb-5 bg-body rounded">
         <div className="flex flex-col p-2 m-2  max-w-7xl ">
           <div className="text-xl md:text-3xl font-medium">Meet Our Team</div>
@@ -110,7 +107,6 @@ export default function About({}: Props) {
         </div>
       </div>
       <script src="https://cdn.tailwindcss.com"></script>
-      {<Footer />}
     </div>
   );
 }

@@ -1,14 +1,14 @@
 import React from "react";
-import Navbar from "./navbar/page";
-import Footer from "./footer/page";
+import Main from "./main/page";
 
 type Props = {};
 
 export default function page({}: Props) {
   return (
     <div className="text-center p-10">
-      {<Navbar />}
-      {<Footer />}
+      {<Main/>}
+      {/* {<Navbar />}
+      {<Footer />} */}
     </div>
   );
 }

@@ -1,13 +1,10 @@
 import React from "react";
-import Navbar from '.././navbar/page';
-import Footer from "../footer/page";
 
 type Props = {};
 
 export default function Main({}: Props) {
   return (
     <div className="">
-      {<Navbar/>}
       <div className="flex justify-center shadow-lg p-3 mb-5 bg-body rounded">
         <div className="flex flex-col md:flex-row max-w-7xl justify-center items-center">
           <div className="overflow-hidden w-3/4 md:w-1/3 bg-white m-4 shadow-sm flex flex-col justify-center">
@@ -156,7 +153,6 @@ export default function Main({}: Props) {
         noModule
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
       ></script>
-      {<Footer/>}
     </div>
   );
 }
