@@ -22,18 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={kanit.className}>
-        <div>
-
-          {<Navbar/>}
-
-        </div>
+        <div>{<Navbar />}</div>
         {children}
-        <div>
-
-          {<Footer/>}
-
-        </div>
-        </body>
+        <div>{<Footer />}</div>
+      </body>
     </html>
   );
 }

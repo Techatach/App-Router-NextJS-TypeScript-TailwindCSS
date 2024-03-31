@@ -7,8 +7,6 @@ export default function page({}: Props) {
   return (
     <div className="text-center p-10">
       {<Main/>}
-      {/* {<Navbar />}
-      {<Footer />} */}
     </div>
   );
 }
